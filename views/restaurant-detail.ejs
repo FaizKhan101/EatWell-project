@@ -1,0 +1,13 @@
+<%- include("./includes/head") %>
+<link rel="stylesheet" href="/styles/restaurants.css" />
+
+  </head>
+  <body>
+    <%- include("./includes/header") %>
+    <main>
+      <h1><%= restaurant.name %></h1>
+      <p><%= restaurant.cuisine %> | <%= restaurant.address %></p>
+      <p><%= restaurant.description %></p>
+      <a href="View Website" >Website</a>
+    </main>
+<%- include("./includes/end") %>
